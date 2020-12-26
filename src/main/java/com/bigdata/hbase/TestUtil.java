@@ -32,6 +32,6 @@ public class TestUtil {
 
     @Test
     public void test() throws Exception {
-        DataUtil.parseResult(DataUtil.get(conn,"test1","table1","key1"));
+        DataUtil.delete(conn,"test1","table1","key1");
     }
 }
